@@ -9,16 +9,15 @@
 
 import TheStack from './stack'
 
-let treatsStack = new TheStack()
-let numberStack = new TheStack()
-
+const treatsStack = new TheStack()
 treatsStack.push('chocolate')
 treatsStack.push('chips')
 treatsStack.push('candy')
 
+const numberStack = new TheStack()
 numberStack.push('one')
 numberStack.push('two')
 numberStack.push('three')
 
-console.log(`Treats: ${treatsStack}`)
-console.log(`Numbers: ${numberStack}`)
+console.log(`Treats: ${treatsStack.showStack()}`)
+console.log(`Numbers: ${numberStack.showStack()}`)

@@ -22,10 +22,10 @@ class Stack {
     // return the stack
     let stackValues: string = ""
 
-    for (const value of this.stackAsList) {
-      stackValues += value + ","
+    for (const value of this.stackList) {
+      stackValues += value + ", "
     }
-    stackValues = stackValues.slice(0, -1) // Remove the trailing comma
+    stackValues = stackValues.slice(0, -2) // Remove the trailing comma
 
     return stackValues
   }
