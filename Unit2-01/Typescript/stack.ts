@@ -9,22 +9,23 @@ class Stack {
   //create stack as list
   stackList: string[]
 
-  contructor() {
+  constructor() {
     this.stackList = []
   }
 
   push(pushedString: string): void {
-    //push value in stack
+    // push the value onto the stack
     this.stackList.push(pushedString)
   }
 
   showStack(): string {
-    let stackValue: string = ""
+    // return the stack
+    let stackValues: string = ""
 
     for (const value of this.stackAsList) {
-      stackValue += value + ", "
+      stackValues += value + ","
     }
-    stackValues = stackValues.slice(0, -1)
+    stackValues = stackValues.slice(0, -1) // Remove the trailing comma
 
     return stackValues
   }
