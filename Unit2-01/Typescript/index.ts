@@ -19,5 +19,11 @@ numberStack.push('one')
 numberStack.push('two')
 numberStack.push('three')
 
+const countriesStack = new TheStack()
+numberStack.push('Canada')
+numberStack.push('Brazil')
+numberStack.push('Japan')
+
 console.log(`Treats: ${treatsStack.showStack()}`)
 console.log(`Numbers: ${numberStack.showStack()}`)
+console.log(`Countries: ${countriesStack.showStack()}`)
