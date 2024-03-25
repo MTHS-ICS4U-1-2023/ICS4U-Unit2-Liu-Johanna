@@ -20,9 +20,9 @@ numberStack.push('two')
 numberStack.push('three')
 
 const countriesStack = new TheStack()
-numberStack.push('Canada')
-numberStack.push('Brazil')
-numberStack.push('Japan')
+countriesStack.push('Canada')
+countriesStack.push('Brazil')
+countriesStack.push('Japan')
 
 console.log(`Treats: ${treatsStack.showStack()}`)
 console.log(`Numbers: ${numberStack.showStack()}`)
