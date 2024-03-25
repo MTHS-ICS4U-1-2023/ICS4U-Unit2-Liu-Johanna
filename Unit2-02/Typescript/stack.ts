@@ -6,30 +6,42 @@
  */
 
 class Stack {
-    //create stack as list
-    stackList: string[]
-  
-    constructor() {
-      this.stackList = []
-    }
-  
-    push(pushedString: string): void {
-      // push the value onto the stack
-      this.stackList.push(pushedString)
-    }
-  
-    showStack(): string {
-      // return the stack
-      let stackValues: string = ""
-  
-      for (const value of this.stackList) {
-        stackValues += value + ", "
-      }
-      stackValues = stackValues.slice(0, -2) // Remove the trailing comma
-  
-      return stackValues
-    }
+  //create stack as list
+  stackList: string[]
+
+  constructor() {
+    this.stackList = []
   }
-  
-  // Export the class
-  export default Stack;
+
+  push(pushedString: string): void {
+    // push the value onto the stack
+    this.stackList.push(pushedString)
+  }
+
+  // getters
+  showStack(): string {
+  // return the stack
+    let stackValues: string = ""
+
+    for (const value of this.stackList) {
+      stackValues += value + ", "
+    }
+    stackValues = stackValues.slice(0, -2) // Remove the trailing comma
+
+    return stackValues
+  }
+  // methods
+  pop(): string {
+    let returnvalue: string = ""
+    if (this.stackList.length > 0) {
+      const topItem: string =  this.stackList.splice(-1)
+      returnValue = topItem
+    } else {
+      returnValue = "Stack Empty."
+      }
+    return returnValue
+  }
+}
+
+// Export the class
+export default Stack;
