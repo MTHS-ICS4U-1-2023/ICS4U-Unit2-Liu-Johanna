@@ -7,19 +7,19 @@
 
 class Stack {
   //create stack as list
-  stackList: string[]
+  private stackList: string[]
 
   constructor() {
     this.stackList = []
   }
 
-  push(pushedString: string): void {
+  public push(pushedString: string): void {
     // push the value onto the stack
     this.stackList.push(pushedString)
   }
 
   // getters
-  showStack(): string {
+  public showStack(): string {
   // return the stack
     let stackValues: string = ""
 
@@ -31,15 +31,15 @@ class Stack {
     return stackValues
   }
   // methods
-  pop(): string {
-    let returnvalue: string = ""
+  public pop(): string {
+    let remove = ""
     if (this.stackList.length > 0) {
-      const topItem: string =  this.stackList.splice(-1)
-      returnValue = topItem
+      // splice (last item, delete x amount)
+      remove =  this.stackList.splice(-1, 1)
     } else {
-      returnValue = "Stack Empty."
+      remove = "Stack Empty."
       }
-    return returnValue
+    return remove
   }
 }
 
