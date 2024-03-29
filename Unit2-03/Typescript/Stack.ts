@@ -41,6 +41,21 @@ class Stack {
         }
       return remove
     }
+
+    public isEmpty(): string {
+      let stackStatus = ""
+      if (this.stackList.length > 0) {
+        stackStatus = "False"
+      } else {
+        stackStatus = "True"
+      }
+      return stackStatus
+    }
+
+    public stackSize(): string {
+      let size = this.stackList.length
+      return size
+    }
   }
   
   // Export the class
