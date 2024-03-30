@@ -6,7 +6,38 @@
  * @since   2024-03-29
  */
 
-public class Stack {
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+* This is my stack.
+*/
+public class Stack {   
+    /** 
+     * Constructor
+     * */
+    private List<String> stackList = new ArrayList<String>();
+
     /**
-     * 
+    * Push a string to end of stack.
+    *
+    * @param input user input string
+    */
+    public void push(String item) {
+        stackList.add(item);
+    }
+
+    /**
+    * Show all items on stack.
+    *
+    * @return the full stack
+    */
+    public String showStack() {
+        String values = "";
+        for (int i = 0; i < stackList.size(); i++) {
+            values = values + stackList.get(counter) + ", ";
+        }
+        values = values.substring(0, values.length() - 2);
+        return values;
+    }
 }
