@@ -1,6 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="QxoSiv3PMUTSeKM8ovES" name="Page-1">
+<<<<<<< HEAD
         <mxGraphModel dx="1101" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+=======
+        <mxGraphModel dx="532" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+>>>>>>> 3533b2bbc8260801de2fcba53bfd50483ed48e7f
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -28,8 +32,13 @@
                 <mxCell id="9" value="Push" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="145" y="140" width="50" height="30" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="10" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="590" y="640" width="100" height="60" as="geometry"/>
+=======
+                <mxCell id="10" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="580" width="100" height="60" as="geometry"/>
+>>>>>>> 3533b2bbc8260801de2fcba53bfd50483ed48e7f
                 </mxCell>
                 <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="11" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -62,7 +71,11 @@
                 <mxCell id="14" value="stackValues += &lt;br&gt;value + &quot;, &quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="397.5" y="400" width="125" height="70" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="26" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="25">
+=======
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="25">
+>>>>>>> 3533b2bbc8260801de2fcba53bfd50483ed48e7f
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="stackValues = stackValues.slice&lt;br&gt;(0, -2)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
@@ -74,11 +87,19 @@
                 <mxCell id="24" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="510" y="295" width="40" height="30" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="27" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="10">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="return&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
                     <mxGeometry x="590" y="540" width="100" height="60" as="geometry"/>
+=======
+                <mxCell id="28" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="return stackValues" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="490" width="100" height="60" as="geometry"/>
+>>>>>>> 3533b2bbc8260801de2fcba53bfd50483ed48e7f
                 </mxCell>
             </root>
         </mxGraphModel>
