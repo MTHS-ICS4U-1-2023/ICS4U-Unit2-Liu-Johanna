@@ -41,5 +41,21 @@ public class Stack {
         values = values.substring(0, values.length() - 2);
         return values;
     }
+
+    /**
+     * Pops a string from stack and returns it.
+     *
+     * @return the item
+     *
+     */
+    public String pop() {
+        String removedItem = "";
+        if (stackList.size() > 0) {
+            removedItem = stackList.remove(stackList.size() - 1);
+        } else {
+            removedItem = "Stack Empty!";
+        }
+        return removedItem;
+    }
 }
 
