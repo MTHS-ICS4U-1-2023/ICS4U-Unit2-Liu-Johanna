@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+<<<<<<< HEAD
+=======
+  },
+  "dependencies": {
+    "bun-promptx": "^0.2.0"
+>>>>>>> bce3f5957b3a20bea1a9637bdb7e8146efae4dff
+  }
+}
