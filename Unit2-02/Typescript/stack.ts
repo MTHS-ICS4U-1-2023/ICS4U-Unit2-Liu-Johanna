@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+/**
+ *
+ * This program uses stacks
+ *
+ * By:      Johanna Liu
+ * Version: 1.0
+ * Since:   2024-03-19
+ */
+
+class Stack {
+  // create stack as list
+  stackList: string[]
+
+  push(pushedString: string): void {
+=======
 /** 
  * This program defines a stack
  * By:      Johanna Liu
@@ -14,13 +30,19 @@ class Stack {
   }
 
   public push(pushedString: string): void {
+>>>>>>> bce3f5957b3a20bea1a9637bdb7e8146efae4dff
     // push the value onto the stack
     this.stackList.push(pushedString)
   }
 
+<<<<<<< HEAD
+  showStack(): string {
+    // return the stack
+=======
   // getters
   public showStack(): string {
   // return the stack
+>>>>>>> bce3f5957b3a20bea1a9637bdb7e8146efae4dff
     let stackValues: string = ""
 
     for (const value of this.stackList) {
@@ -30,6 +52,15 @@ class Stack {
 
     return stackValues
   }
+<<<<<<< HEAD
+}
+
+  pop(poppedString: string): void {
+    // pop value from stack
+    returnvalue = ""
+
+  }
+=======
   // methods
   public pop(): string {
     let remove = ""
@@ -42,6 +73,7 @@ class Stack {
     return remove
   }
 }
+>>>>>>> bce3f5957b3a20bea1a9637bdb7e8146efae4dff
 
 // Export the class
 export default Stack;

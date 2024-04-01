@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+console.log("Hello via Bun!");
+=======
 /**
  *
  * This program uses stacks
@@ -44,3 +47,4 @@ let removedFruit = fruitStack.pop()
 console.log(`Popped fruit: ${removedFruit}`)
 // show updated stack
 console.log(`Fruits: ${fruitStack.showStack()}`)
+>>>>>>> bce3f5957b3a20bea1a9637bdb7e8146efae4dff
