@@ -28,7 +28,7 @@ function maxRun(stringInput) {
 }
 
 // get input
-let userString: string = createPrompt(`Enter a random string: `)
+let userString = createPrompt(`Enter a random string: `)
 const stringInput = userString.value
 
 if (stringInput.length == 0) {
